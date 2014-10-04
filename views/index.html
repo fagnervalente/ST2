@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Upload Videos ST 2</title>
+
+	<!--<link type="text/css" rel="stylesheet" href="../public/stylesheets/bootstrap.min.css" />-->
+	<link type="text/css" rel="stylesheet" href="../public/stylesheets/index.min.css" />
+</head>
+<body>
+	<header>
+		<div class="container">
+			<span>SAMBAVÍDEOS</span>
+		</div>
+	</header>
+	<div class="body">
+		<section id="sec-top" class="container">
+			<div class="row">
+				<div class="col-md-10">
+					<h4>General Library</h4>
+					<span>Keep your media online. Upload your videos, images and musics to the cloud and save time.</span>
+				</div>
+				<div class="col-md-2">
+					<a href="">
+						Upload Files
+					</a>
+				</div>
+			</div>
+			<hr>
+		</section>
+
+		<section id="sec-videos" class="container videos">
+			<div class="row">
+				<div class="col-lg-2 col-md-4 col-xs-6 thumb">
+	                <a id="new-file" class="thumbnail new-file" href="#" draggable="true">
+	                    
+	                    <span class="glyphicon glyphicon-cloud-upload"></span>
+	                    <strong>Upload new file</strong>
+	                    <span>Drap & Drop a file here.</span>
+						
+						<!--<form id="form-video" action="/" enctype="multipart/form-data" method="post">
+	                    	<input type="file" name="myFile" id="myFile">
+	                    </form>-->
+	                </a>
+	                <span class="title-video"> </span>
+                </div>
+			</div>
+			
+		</section>
+	</div>
+
+	<form action="/" enctype="multipart/form-data" method="post">
+		<input type="file" name="myFile" id="myFile">
+		<input type="submit" value="Enviar">
+	</form>
+
+
+
+	<div id="wrap-modal-video" class="wrap-modal">
+		<div class="row">
+			<div class="wrap-video col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
+				<div class="title">
+					<h4 class="video-title">Titualo</h4>
+					<a href="" class="btn-close-bar"><span class="glyphicon glyphicon-plus rotate-45"></span></a>
+				</div>
+				<div class="content">
+					<video src="http://www.quirksmode.org/html5/videos/big_buck_bunny.mp4" controls>
+						<p>Seu navegador não tem suporte ao player de vídeo do HTML5</p>
+					</video>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	
+	<script type="text/javascript" src="../public/javascripts/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="../public/javascripts/bootstrap.min.js"></script>
+	<script type="text/javascript" src="../public/javascripts/index.min.js"></script>
+	
+</body>
+</html>
